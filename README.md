@@ -30,7 +30,7 @@ ratelimiterOffset: A number of milliseconds to offset the ratelimit timing calcu
 
 Others, you can pass these options to the class constructor so you don't have to pass them each time you call a function:
 ```
-version: The Discord API version to use. Defaults to "v7".
+version: The Discord API version to use. Defaults to "v9".
 
 clientId: Your application's client id.
 
@@ -317,7 +317,7 @@ console.log(url);
 
 # Debugging
 
-By default when you log an error to the console, it will look something like this `DiscordHTTPError: 400 Bad Request on POST /api/v7/oauth2/token` followed by a very long stack trace what most of the times won't be useful (if you already know where the function is called).
+By default when you log an error to the console, it will look something like this `DiscordHTTPError: 400 Bad Request on POST /api/v9/oauth2/token` followed by a very long stack trace what most of the times won't be useful (if you already know where the function is called).
 
 To easily debug any issues you are having, you can access the following properties of the error object thrown:
 

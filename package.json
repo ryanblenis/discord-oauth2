@@ -1,6 +1,6 @@
 {
   "name": "discord-oauth2",
-  "version": "2.8.0",
+  "version": "2.9.0",
   "description": "Easily interact with discord's oauth2 API",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reboxer/discord-oauth2.git"
+    "url": "git+https://github.com/ryanblenis/discord-oauth2.git"
   },
   "keywords": [
     "api",
@@ -16,12 +16,12 @@
     "discordapp",
     "oauth2"
   ],
-  "author": "reboxer",
+  "author": "ryanblenis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reboxer/discord-oauth2/issues"
+    "url": "https://github.com/ryanblenis/discord-oauth2/issues"
   },
-  "homepage": "https://github.com/reboxer/discord-oauth2#readme",
+  "homepage": "https://github.com/ryanblenis/discord-oauth2#readme",
   "devDependencies": {
     "eslint": "7.32.0"
   }
